@@ -1,9 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
-// const path = require( 'path' );
-// const url = require('url');
-// require('dotenv').config();
+
 
 //REGISTER
 router.post('/register', async (req, res) => {
